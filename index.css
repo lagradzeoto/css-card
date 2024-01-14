@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgba(74, 19, 170, 0.89);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.login {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.login::after {
+  content: "";
+  width: 50px;
+  height: 8px;
+  background-color: rgba(74, 19, 170, 0.89);
+  position: absolute;
+  left: 1px;
+  bottom: -20px;
+}
+
+.btnlogin {
+  color: aliceblue;
+  border-radius: 10px;
+  height: 50px;
+  background-color: rgb(108, 9, 200);
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+
+.left {
+  padding-inline: 45px;
+  display: flex;
+  justify-content: center;
+  height: 525px;
+  flex-direction: column;
+  gap: 42px;
+  width: 450px;
+}
+
+.right {
+  height: 100%;
+  width: 450px;
+  background-image: url("./istockphoto-1459354524-1024x1024.jpeg");
+  background-size: cover;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formebi {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputbox {
+  position: relative;
+}
+
+.inputbox i {
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  color: rgb(108, 9, 200);
+}
+
+.inputbox input {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-bottom: 2px solid grey;
+  padding-left: 40px;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left p {
+  text-align: center;
+}
+
+.right p {
+  color: aliceblue;
+  width: 250px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.right h6 {
+  color: aliceblue;
+}
